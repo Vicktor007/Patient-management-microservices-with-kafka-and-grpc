@@ -1,0 +1,12 @@
+### GET request to update a patient
+PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+
+
+{
+  "name": "Pears Jess",
+  "email": "test1@gmail.com",
+  "address": "32nd main ave",
+  "dateOfBirth": "1995-09-09"
+}
+###
